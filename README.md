@@ -32,8 +32,7 @@ javac -d bin src/com/chatambiental/**/*.java
 Executando o Servidor
 bash# Porta padrão (5000)
 java -cp bin com.chatambiental.servidor.core.ServidorPrincipal
-
-# Ou especifique uma porta personalizada
+Ou especifique uma porta personalizada
 java -cp bin com.chatambiental.servidor.core.ServidorPrincipal 8080
 Executando o Cliente
 bashjava -cp bin com.chatambiental.cliente.ui.JanelaLogin
