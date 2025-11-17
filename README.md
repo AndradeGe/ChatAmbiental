@@ -20,32 +20,6 @@ Sockets TCP/IP (Comunicação em Rede)
 Serialização de Objetos (Protocolo de Mensagens)
 Threads (Processamento Concorrente)
 ConcurrentHashMap (Gerenciamento Thread-Safe)
-
-📁 Estrutura do Projeto
-ChatAmbiental/
-│
-├── com.chatambiental.cliente/
-│   ├── rede/
-│   │   ├── GerenciadorRede.java
-│   │   └── ReceptorMensagens.java
-│   └── ui/
-│       ├── JanelaLogin.java
-│       └── JanelaPrincipal.java
-│
-├── com.chatambiental.servidor/
-│   ├── cliente/
-│   │   └── ThreadCliente.java
-│   └── core/
-│       ├── GerenciadorConexoes.java
-│       └── ServidorPrincipal.java
-│
-└── com.chatambiental.comum/
-    ├── Mensagem.java
-    ├── MensagemTexto.java
-    ├── MensagemArquivo.java
-    ├── MensagemComando.java
-    ├── TipoMensagem.java
-    └── TipoComando.java
     
 🚀 Como Executar
 Pré-requisitos
